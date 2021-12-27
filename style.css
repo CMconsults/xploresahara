@@ -97,7 +97,7 @@ button {
     margin: 10px 10px;
     background-position: center;
     background-size: cover;
-    background
+   
     
 }
 
@@ -131,4 +131,10 @@ button {
 .card p{
     color: rgb(233, 233, 233);
     text-shadow: 0 0 5px rgb(161, 161, 161);
+}
+
+button:hover{
+    transform: translateY(-3px);
+    transition: transform 0.5s;
+    background-color: rgb(233, 233, 233);
 }
